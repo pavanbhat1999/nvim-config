@@ -1,4 +1,24 @@
 vim.cmd [[packadd packer.nvim]]
+vim.cmd [[
+  augroup packer_user_config
+    autocmd!
+    autocmd BufWritePost plugins.lua source <afile> | PackerSync
+  augroup end
+]]
+-- Use a protected call so we don't error out on first use
+local status_ok, packer = pcall(require, "packer")
+if not status_ok then
+  return
+end
+
+-- Have packer use a popup window
+packer.init {
+  display = {
+    open_fn = function()
+      return require("packer.util").float { border = "rounded" }
+    end,
+  },
+}
 return require('packer').startup(function()
 --#1 General Plugins--------------------------------------------------------------------------------
 use 'wbthomason/packer.nvim'
@@ -46,13 +66,13 @@ use 'lifepillar/vim-solarized8'
 use 'psliwka/vim-smoothie'
 --"use 'vim-airline/vim-airline'
 use 'hoob3rt/lualine.nvim'
--- use 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' } --Color Display"
+use {'rrethy/vim-hexokinase', run='make hexokinase' } --Color Display"
 use 'KabbAmine/vCoolor.vim' --color picker for vim
 --Fuzzy Finders and Navigation------------------------------------------------------------------
 use 'nvim-lua/popup.nvim'
 use 'nvim-lua/plenary.nvim'
 use 'nvim-telescope/telescope.nvim'
--- use 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+use {'nvim-telescope/telescope-fzf-native.nvim', run= 'make' }
 --"fuzzy finedr using fzf
 --use 'junegunn/fzf', { 'do': { -> fzf#install() } }
 --use 'junegunn/fzf.vim'
