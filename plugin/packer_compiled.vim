@@ -71,13 +71,129 @@ end
 time("try_loadstring definition", false)
 time("Defining packer_plugins", true)
 _G.packer_plugins = {
-  dracula = {
+  ["Comment.nvim"] = {
     loaded = true,
-    path = "/home/root99/.local/share/nvim/site/pack/packer/start/dracula"
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/Comment.nvim"
+  },
+  ["auto-pairs"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/auto-pairs"
+  },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/cmp-buffer"
+  },
+  ["cmp-cmdline"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/cmp-cmdline"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp"
+  },
+  ["cmp-nvim-lua"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/cmp-path"
+  },
+  ["cmp-vsnip"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/cmp-vsnip"
+  },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/copilot.vim"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/friendly-snippets"
+  },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/lualine.nvim"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/nvim-cmp"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/nvim-lspconfig"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/root99/.local/share/nvim/site/pack/packer/start/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/plenary.nvim"
+  },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/popup.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  undotree = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/undotree"
+  },
+  ["vCoolor.vim"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/vCoolor.vim"
+  },
+  ["vim-closetag"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/vim-closetag"
+  },
+  ["vim-easy-align"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/vim-easy-align"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/vim-fugitive"
+  },
+  ["vim-gitgutter"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/vim-gitgutter"
+  },
+  ["vim-smoothie"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/vim-smoothie"
+  },
+  ["vim-solarized8"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/vim-solarized8"
+  },
+  ["vim-startify"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/vim-startify"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/vim-surround"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/vim-vsnip"
+  },
+  ["vim-vsnip-integ"] = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/vim-vsnip-integ"
   }
 }
 
