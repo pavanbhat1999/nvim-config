@@ -1,5 +1,4 @@
 vim.cmd[[autocmd VimEnter * :silent exec "!kill -s SIGWINCH $PPID"]]
--- vim.cmd('source $HOME/.config/nvim/vim-scripts/plugins.vim')--TODO:Think about changing package manager
 require("plugins")
 require('defaults')
 require("color-settings")
