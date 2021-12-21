@@ -35,7 +35,7 @@ use 'onsails/lspkind-nvim' --icons for lsp
 -- use 'prettier/vim-prettier', { 'do': 'yarn install' }
 ---------------------------------------------------------------------------------
 --#3 color settings and look😛---------------------------------------------------
--- use 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  -- We recommend updating the parsers on update
+use {'nvim-treesitter/nvim-treesitter', run=':TSUpdate'}  -- We recommend updating the parsers on update
 --use 'lifepillar/vim-gruvbox8'
 use 'lifepillar/vim-solarized8'
 -- Pslug 'arcticicestudio/nord-vim'
