@@ -1,5 +1,5 @@
 vim.cmd[[autocmd VimEnter * :silent exec "!kill -s SIGWINCH $PPID"]]
-vim.cmd('source $HOME/.config/nvim/vim-scripts/plugins.vim')--TODO:Think about changing package manager
+-- vim.cmd('source $HOME/.config/nvim/vim-scripts/plugins.vim')--TODO:Think about changing package manager
 require("plugins")
 require('defaults')
 require("color-settings")
@@ -11,7 +11,7 @@ require("lsp/bash-lsp")
 require("lsp/lua-lsp")
 require("lua-line")
 require("comment")
-require("treesitter")
+-- require("treesitter")
 --require("efm")
 -- Need port of auto command from neovim
 vim.cmd('source $HOME/.config/nvim/vim-scripts/auto-cmd.vim')

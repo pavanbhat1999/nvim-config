@@ -1,26 +1,19 @@
 vim.cmd [[packadd packer.nvim]]
--- local use = use
 return require('packer').startup(function()
-  -- Packer can manage itself
+--#1 General Plugins--------------------------------------------------------------------------------
 use 'wbthomason/packer.nvim'
-
 use 'mbbill/undotree'
 use 'tpope/vim-fugitive'
--- use 'mg979/vim-visual-multi', {'branch': 'master'}
 use 'jiangmiao/auto-pairs'
 use 'tpope/vim-surround' --https://github.com/tpope/vim-surround"
 use 'alvan/vim-closetag' --auto closing tags - web development
---use 'scrooloose/nerdcommenter'
 use 'numToStr/Comment.nvim'
 use 'kyazdani42/nvim-web-devicons'
 use 'mhinz/vim-startify'
 use 'airblade/vim-gitgutter'
--- use 'vimwiki/vimwiki'
 use 'junegunn/vim-easy-align'
---"-------------------------------------------------------------------------------
---"#2 Auto Completion useins-----------------------------------------------------
---"use 'neoclide/coc.nvim', {'branch': 'release' , 'for':'java'}
---"use 'williamboman/nvim-lsp-installer'
+----------------------------------------------------------------------------------------------------
+--2 Auto Completion Plugins-------------------------------------------------------------------------
 use 'neovim/nvim-lspconfig'
 use 'github/copilot.vim'
 use 'hrsh7th/cmp-nvim-lsp'
@@ -40,8 +33,8 @@ use 'onsails/lspkind-nvim' --icons for lsp
 -- use 'sbdchd/neoformat'
 -- post install (yarn install | npm install) then load plugin only for editing supported files
 -- use 'prettier/vim-prettier', { 'do': 'yarn install' }
---"-------------------------------------------------------------------------------
---"#3 color settings and look😛---------------------------------------------------
+---------------------------------------------------------------------------------
+--#3 color settings and look😛---------------------------------------------------
 -- use 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  -- We recommend updating the parsers on update
 --use 'lifepillar/vim-gruvbox8'
 use 'lifepillar/vim-solarized8'
