@@ -1,4 +1,5 @@
 vim.cmd [[packadd packer.nvim]]
+-- Reload Packer
 vim.cmd [[
   augroup packer_user_config
     autocmd!
@@ -50,7 +51,7 @@ use 'hrsh7th/vim-vsnip-integ'
 --use 'golang/vscode-go'
 use 'rafamadriz/friendly-snippets'
 use 'onsails/lspkind-nvim' --icons for lsp
--- use 'sbdchd/neoformat'
+use 'sbdchd/neoformat'
 -- post install (yarn install | npm install) then load plugin only for editing supported files
 -- use 'prettier/vim-prettier', { 'do': 'yarn install' }
 ---------------------------------------------------------------------------------
