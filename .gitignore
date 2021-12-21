@@ -1,2 +1,2 @@
-lua-language-server
-.cache
+lua-language-server/
+.cache/
