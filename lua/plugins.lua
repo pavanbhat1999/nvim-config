@@ -36,7 +36,7 @@ use 'junegunn/vim-easy-align'
 ----------------------------------------------------------------------------------------------------
 --2 Auto Completion Plugins-------------------------------------------------------------------------
 use 'neovim/nvim-lspconfig'
-use 'github/copilot.vim'
+use {'github/copilot.vim',opt=true,cmd={'coco'} }
 use 'hrsh7th/cmp-nvim-lsp'
 use 'hrsh7th/cmp-buffer'
 use 'hrsh7th/cmp-path'
@@ -77,7 +77,7 @@ use {'nvim-telescope/telescope-fzf-native.nvim', run= 'make' }
 use 'nvim-telescope/telescope-media-files.nvim'
 --"fuzzy finedr using fzf
 --use 'junegunn/fzf', { 'do': { -> fzf#install() } }
-use 'junegunn/fzf.vim'
+-- use 'junegunn/fzf.vim'
 -- ---------------------------------------------------------------------------------
 --use 'lervag/vimtex',{'do':'latex'}
 -- Lua
