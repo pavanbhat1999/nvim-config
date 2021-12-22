@@ -122,6 +122,11 @@ _G.packer_plugins = {
     path = "/home/root99/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  harpoon = {
+    loaded = true,
+    path = "/home/root99/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/home/root99/.local/share/nvim/site/pack/packer/start/lspkind-nvim",

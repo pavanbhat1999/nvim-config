@@ -10,6 +10,7 @@ require("lsp/lua-lsp")
 require("lua-line")
 require("comment")
 require("telescope-settings")
+require("harpoon-settings")
 require("treesitter")
 --require("efm")
 -- Need port of auto command from neovim

@@ -54,8 +54,8 @@ use 'onsails/lspkind-nvim' --icons for lsp
 use 'sbdchd/neoformat'
 -- post install (yarn install | npm install) then load plugin only for editing supported files
 -- use 'prettier/vim-prettier', { 'do': 'yarn install' }
----------------------------------------------------------------------------------
---#3 color settings and look😛---------------------------------------------------
+----------------------------------------------------------------------------------------------------
+--#3 color settings and look😛----------------------------------------------------------------------
 use {'nvim-treesitter/nvim-treesitter', run=':TSUpdate'}  -- We recommend updating the parsers on update
 --use 'lifepillar/vim-gruvbox8'
 use 'lifepillar/vim-solarized8'
@@ -69,7 +69,7 @@ use 'psliwka/vim-smoothie'
 use 'hoob3rt/lualine.nvim'
 use {'rrethy/vim-hexokinase', run='make hexokinase' } --Color Display"
 use 'KabbAmine/vCoolor.vim' --color picker for vim
---Fuzzy Finders and Navigation------------------------------------------------------------------
+--Fuzzy Finders and Navigation----------------------------------------------------------------------
 use 'nvim-lua/popup.nvim'
 use 'nvim-lua/plenary.nvim'
 use 'nvim-telescope/telescope.nvim'
@@ -78,7 +78,7 @@ use 'nvim-telescope/telescope-media-files.nvim'
 --"fuzzy finedr using fzf
 --use 'junegunn/fzf', { 'do': { -> fzf#install() } }
 -- use 'junegunn/fzf.vim'
--- ---------------------------------------------------------------------------------
+-- -------------------------------------------------------------------------------------------------
 --use 'lervag/vimtex',{'do':'latex'}
 -- Lua
 use {
@@ -89,4 +89,10 @@ use {
     }
   end
 }
+use {'ThePrimeagen/harpoon'}
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+
+
 end)
