@@ -77,7 +77,7 @@ use {'nvim-telescope/telescope-fzf-native.nvim', run= 'make' }
 use 'nvim-telescope/telescope-media-files.nvim'
 --"fuzzy finedr using fzf
 --use 'junegunn/fzf', { 'do': { -> fzf#install() } }
---use 'junegunn/fzf.vim'
+use 'junegunn/fzf.vim'
 -- ---------------------------------------------------------------------------------
 --use 'lervag/vimtex',{'do':'latex'}
 -- Lua
