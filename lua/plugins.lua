@@ -74,6 +74,7 @@ use 'nvim-lua/popup.nvim'
 use 'nvim-lua/plenary.nvim'
 use 'nvim-telescope/telescope.nvim'
 use {'nvim-telescope/telescope-fzf-native.nvim', run= 'make' }
+use 'nvim-telescope/telescope-media-files.nvim'
 --"fuzzy finedr using fzf
 --use 'junegunn/fzf', { 'do': { -> fzf#install() } }
 --use 'junegunn/fzf.vim'
@@ -85,9 +86,6 @@ use {
   requires = "nvim-lua/plenary.nvim",
   config = function()
     require("todo-comments").setup {
-      -- your configuration comes here
-      -- or leave it empty to use the default settings
-      -- refer to the configuration section below
     }
   end
 }
