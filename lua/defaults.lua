@@ -14,7 +14,7 @@ vim.opt.ignorecase = true
 --vim.api.nvim_command("set noswapfile")
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = ".cache/nvim/undo"
+vim.opt.undodir = "home/root99/.cache/nvim/undo"
 vim.opt.undofile = true
 vim.opt.incsearch = true
 vim.opt.exrc = true

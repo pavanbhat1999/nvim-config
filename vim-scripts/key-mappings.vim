@@ -19,6 +19,7 @@ nnoremap <leader>b <cmd>lua require('telescope.builtin').buffers()<cr>
 nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
 nnoremap <leader>fs <cmd>lua require('telescope.builtin').grep_string()<cr>
 nnoremap <leader>bs <cmd>lua require('telescope.builtin').current_buffer_fuzzy_find()<cr>
+nnoremap <leader>td :TodoTelescope<cr>
 " ------------------------------------------------------------------------------
 nnoremap<leader>gc :Git commit <CR>
 nnoremap<leader>gch :Git checkout
