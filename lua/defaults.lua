@@ -1,20 +1,20 @@
 vim.g.mapleader = " "
 vim.opt.clipboard = "unnamedplus"
 vim.opt.hlsearch = false
-vim.bo.expandtab = true -- deault is false cant use with single spaces
-vim.bo.tabstop = 4 -- default spaces when tab is pressed
-vim.bo.softtabstop = 4  -- backspace behaviour
-vim.bo.shiftwidth = 4  -- moving usinf >> <<
+vim.opt.expandtab = true -- deault is false cant use with single spaces
+vim.opt.tabstop = 4 -- default spaces when tab is pressed
+vim.opt.softtabstop = 4  -- backspace behaviour
+vim.opt.shiftwidth = 4  -- moving usinf >> <<
 --vim.opt.smarttab = false -- smart tab overrides backspace behaviour
-vim.wo.relativenumber = true
-vim.wo.number = true
+vim.opt.relativenumber = true
+vim.opt.number = true
 vim.opt.smartindent = true
 vim.opt.smartcase = true
 vim.opt.ignorecase = true
 --vim.api.nvim_command("set noswapfile")
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = ".cache/nvim/undo"
+vim.opt.undodir = "/home/root99/.cache/nvim/undo"
 vim.opt.undofile = true
 vim.opt.incsearch = true
 vim.opt.exrc = true
