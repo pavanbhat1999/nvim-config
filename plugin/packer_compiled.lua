@@ -137,11 +137,6 @@ _G.packer_plugins = {
     path = "/home/root99/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/hoob3rt/lualine.nvim"
   },
-  ["null-ls.nvim"] = {
-    loaded = true,
-    path = "/home/root99/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
-    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/root99/.local/share/nvim/site/pack/packer/start/nvim-cmp",
