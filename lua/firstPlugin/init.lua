@@ -13,7 +13,7 @@ local function openWindow()
         height = 35,
         row = 10,
         col = 50,
-        border = 'shadow'
+        border = 'single'
     })
 end
 
