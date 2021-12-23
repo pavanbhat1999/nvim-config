@@ -12,5 +12,5 @@ require("lua-line")
 require("comment")
 require("treesitter")
 --require("efm")
--- Need port of auto command from neovim
+-- Need port of auto command from neovim------------------------------------------------------------
 vim.cmd('source $HOME/.config/nvim/vim-scripts/auto-cmd.vim')
