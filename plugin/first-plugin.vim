@@ -6,4 +6,5 @@ augroup FirstPlugin
 autocmd!
 command! OpenConfig lua require'firstPlugin'.openConfig()
 command! OpenTerminal lua require'firstPlugin'.openTerminal()
+command! OpenWindow lua require'firstPlugin'.openWindow()
 augroup END
