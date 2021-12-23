@@ -12,11 +12,16 @@ command! ProjectFiles execute 'Files' s:find_git_root()
 " In the quickfix window, <CR> is used to jump to the error under the
 " cursor, so undefine the mapping there.
 "autocmd BufReadPost quickfix nnoremap <buffer> <CR> <CR><C-W>
-"LSP autoformat
-autocmd BufWritePre *.js lua vim.lsp.buf.formatting_sync(nil, 100)
-autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_sync(nil, 100)
-autocmd BufWritePre *.py lua vim.lsp.buf.formatting_sync(nil, 100)
-"autocmd BufWritePre *.lua lua vim.lsp.buf.formatting_sync(nil, 100)
+"LSP autoformat-------------------------------------------------------------------------------------
+"TODO:----------------------------------------------------------------------------------------------
+" augroup FormatCode
+"     autocmd!
+"     autocmd BufWritePre *.js lua vim.lsp.buf.formatting_sync(nil, 100)
+"     autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_sync(nil, 100)
+"     autocmd BufWritePre *.py lua vim.lsp.buf.formatting_sync(nil, 100)
+"     autocmd BufWritePre *.lua lua vim.lsp.buf.formatting_sync(nil, 100)
+" augroup END
+"---------------------------------------------------------------------------------------------------
 " restore cursor shape after exit
 "augroup RestoreCursorShapeOnExit
     "autocmd!
@@ -31,8 +36,3 @@ autocmd BufWritePost *11.cpp !g++ % -lGL -lcrypto -lglut -lGLU &&  ./a.out
 "Autocmd for latex
 autocmd BufWritePost *.tex !pdflatex %
 "-------------------------------------------------------------------------------
-" augroup remember_folds
-"   autocmd!
-"   autocmd BufWinLeave * mkview
-"   autocmd BufWinEnter * silent! loadview
-" augroup END
