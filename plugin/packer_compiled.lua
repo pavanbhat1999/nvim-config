@@ -137,11 +137,6 @@ _G.packer_plugins = {
     path = "/home/root99/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/hoob3rt/lualine.nvim"
   },
-  neoformat = {
-    loaded = true,
-    path = "/home/root99/.local/share/nvim/site/pack/packer/start/neoformat",
-    url = "https://github.com/sbdchd/neoformat"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/root99/.local/share/nvim/site/pack/packer/start/nvim-cmp",

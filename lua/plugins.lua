@@ -51,9 +51,9 @@ use 'hrsh7th/vim-vsnip-integ'
 --use 'golang/vscode-go'
 use 'rafamadriz/friendly-snippets'
 use 'onsails/lspkind-nvim' --icons for lsp
-use 'sbdchd/neoformat'
+-- use 'sbdchd/neoformat'
 -- post install (yarn install | npm install) then load plugin only for editing supported files
--- use 'prettier/vim-prettier', { 'do': 'yarn install' }
+-- use {'prettier/vim-prettier', run= 'yarn install' }
 ----------------------------------------------------------------------------------------------------
 --#3 color settings and look😛----------------------------------------------------------------------
 use {'nvim-treesitter/nvim-treesitter', run=':TSUpdate'}  -- We recommend updating the parsers on update
