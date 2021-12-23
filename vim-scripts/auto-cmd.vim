@@ -14,13 +14,13 @@ command! ProjectFiles execute 'Files' s:find_git_root()
 "autocmd BufReadPost quickfix nnoremap <buffer> <CR> <CR><C-W>
 "LSP autoformat-------------------------------------------------------------------------------------
 "TODO:----------------------------------------------------------------------------------------------
-" augroup FormatCode
-"     autocmd!
-"     autocmd BufWritePre *.js lua vim.lsp.buf.formatting_sync(nil, 100)
-"     autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_sync(nil, 100)
-"     autocmd BufWritePre *.py lua vim.lsp.buf.formatting_sync(nil, 100)
-"     autocmd BufWritePre *.lua lua vim.lsp.buf.formatting_sync(nil, 100)
-" augroup END
+augroup FormatCode
+    autocmd!
+    " autocmd BufWritePre *.js lua vim.lsp.buf.formatting_sync(nil, 100)
+    " autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_sync(nil, 100)
+    " autocmd BufWritePre *.py lua vim.lsp.buf.formatting_sync(nil, 100)
+    autocmd BufWritePre *.lua lua vim.lsp.buf.formatting_sync(nil, 100)
+augroup END
 "---------------------------------------------------------------------------------------------------
 " restore cursor shape after exit
 "augroup RestoreCursorShapeOnExit

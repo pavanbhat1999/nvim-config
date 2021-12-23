@@ -13,5 +13,6 @@ require("telescope-settings")
 require("harpoon-settings")
 require("treesitter")
 require("efm")
+-- require("null-ls-config")
 -- Need port of auto command from neovim
 vim.cmd('source $HOME/.config/nvim/vim-scripts/auto-cmd.vim')

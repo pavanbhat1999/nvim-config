@@ -54,6 +54,7 @@ use 'onsails/lspkind-nvim' --icons for lsp
 -- use 'sbdchd/neoformat'
 -- post install (yarn install | npm install) then load plugin only for editing supported files
 -- use {'prettier/vim-prettier', run= 'yarn install' }
+use "jose-elias-alvarez/null-ls.nvim"
 ----------------------------------------------------------------------------------------------------
 --#3 color settings and look😛----------------------------------------------------------------------
 use {'nvim-treesitter/nvim-treesitter', run=':TSUpdate'}  -- We recommend updating the parsers on update
